@@ -1,0 +1,54 @@
+@media screen and (max-width: 1351px) {
+    #nav{
+        display: none;
+    }
+    #nav ul{
+        /* display: none; */
+        flex-direction: column;
+    }
+    #home {
+        height: 81vh;
+        justify-content: center;
+    }
+    #main_services {
+        flex-wrap: wrap;
+    }
+    #about_us img {
+        display: none;
+    }
+    #main-gallery {
+        flex-wrap: wrap;
+    }
+    #main-about p {
+        text-align: center;
+        margin-top: 0;
+        margin-right: 0;
+    }
+    .input {
+        width: 83vw;
+    }
+    #message{
+        width: 83vw;
+    }
+    #home_1st {
+        font-size: 1.5em;
+    }
+    #home_2nd {
+        font-size: 2rem;
+    }
+    .classical-enq img {
+        display: none;
+    }
+    #home::before {
+        width: 100vw;
+    }
+    #phoneNav img {
+        margin: 6px;
+    }
+    #phoneNav{
+        display: flex;
+    }
+    .services_ {
+        width: 100vw;
+    }
+  }
