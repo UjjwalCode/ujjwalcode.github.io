@@ -1,0 +1,17 @@
+@media screen and (max-width: 635px) {
+    /* body{
+        background-color: red;
+    } */
+    .media{
+        width: 212px;
+    }
+    .container h2 {
+        padding: 16px 0;
+        font-size: 19px;
+    }
+}
+@media screen and (max-width: 281px) {
+    .container{
+        padding: 0 0;
+    }
+}
